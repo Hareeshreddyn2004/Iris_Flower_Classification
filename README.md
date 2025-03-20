@@ -1,18 +1,17 @@
-#Iris Species Classification – ML Model Comparison
+**Iris Species Classification – ML Model Comparison**
 
-#Project Objective
-The goal of this project is to:
-Classify iris flower species (Setosa, Versicolor, Virginica) based on four features:
+**Project Objective:**
+The goal of this project is to: Classify iris flower species (Setosa, Versicolor, Virginica) based on four features:
   - Sepal length
   - Sepal width
   - Petal length
   - Petal width
-- Train and compare multiple machine learning models** on the Iris dataset.
+- Train and compare multiple machine learning models on the Iris dataset.
 - Evaluate models using accuracy, classification reports, confusion matrices, and cross-validation scores.
 - Identify important features influencing classification using Random Forest feature importance.
 
 
-#Models Implemented
+**Models Implemented**
 - Logistic Regression
 - K-Nearest Neighbors (K-NN)
 - Support Vector Machine (SVM)
@@ -21,7 +20,7 @@ Classify iris flower species (Setosa, Versicolor, Virginica) based on four featu
 - Naive Bayes Classifier
 
 
-#Steps to Run the Project
+**Steps to Run the Project**
 
 1. **Clone or Download** the project files.
 
@@ -39,7 +38,7 @@ Classify iris flower species (Setosa, Versicolor, Virginica) based on four featu
   
   
 
-#Project Structure
+**Project Structure**
 ```
 iris_classification_project/
     ├── main.py
@@ -49,21 +48,21 @@ iris_classification_project/
     ├── LICENSE
 ```
 
-#Outputs Generated
+**Outputs Generated**
 - **Model Accuracy** and **Classification Reports**
 - **Confusion Matrices** for visualizing model predictions
 - **Cross-Validation Scores** (Mean and Standard Deviation)
 - **Feature Importance Plot** (Random Forest)
 
 
-#Code Structure Highlights
+**Code Structure Highlights**
 - Clean and modular code with comments.
 - Uses `LabelEncoder` for target Column encoding.
 - Implements **train-test split** and **cross-validation** for robust evaluation.
 - Visualizations using **Seaborn** and **Matplotlib**.
 
 
-#Example Results
+**Example Results**
 All models achieved **100% test accuracy** on the dataset. Cross-validation scores revealed minor differences:
 
 | Model               | CV Accuracy (Mean ± Std) |
@@ -76,7 +75,7 @@ All models achieved **100% test accuracy** on the dataset. Cross-validation scor
 | Naive Bayes         | 0.9533 ± 0.0267          |
 
 
-#Conclusion
+**Conclusion**
 - All models performed excellently.
 - Random Forest helped **identify Petal Length & Petal Width** as key features.
 - Logistic Regression and K-NN showed slightly better cross-validation consistency.
